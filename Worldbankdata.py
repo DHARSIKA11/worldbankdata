@@ -12,5 +12,5 @@ df2 = df1.T
 columnnn= [28,31,25]
 df3=df2.reindex(columns=columnnn)
 df4=df3.rename(columns={28:'Physicians (per 1,000 people)',31:'Number of deaths ages 5-9 years)',25:'People using safely managed sanitation services,rural(% of rural population)'})
-st.write(df4)
+st.table(df4)
 
